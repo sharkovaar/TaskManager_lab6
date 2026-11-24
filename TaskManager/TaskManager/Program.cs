@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace TaskManager
@@ -57,7 +57,22 @@ namespace TaskManager
         }
 
         static void ShowTasks() { Console.WriteLine("Функция в разработке..."); }
-        static void AddTask() { Console.WriteLine("Функция в разработке..."); }
+
+        static void AddTask()
+        {
+            Console.Write("Введите название задачи: ");
+            string title = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(title))
+            {
+                tasks.Add(new TaskItem(title));
+                Console.WriteLine("Задача успешно добавлена!");
+            }
+            else
+            {
+                Console.WriteLine("Название не может быть пустым.");
+            }
+        }
+
         static void CompleteTask() { Console.WriteLine("Функция в разработке..."); }
         static void DeleteTask() { Console.WriteLine("Функция в разработке..."); }
     }
