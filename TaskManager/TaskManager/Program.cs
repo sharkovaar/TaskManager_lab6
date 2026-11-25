@@ -73,7 +73,20 @@ namespace TaskManager
             }
         }
 
-        static void CompleteTask() { Console.WriteLine("Функция в разработке..."); }
+        static void CompleteTask()
+        {
+            Console.Write("Введите номер выполненной задачи: ");
+            if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= tasks.Count)
+            {
+                tasks[index - 1].IsCompleted = true;
+                Console.WriteLine("Задача отмечена как выполненная!");
+            }
+            else
+            {
+                Console.WriteLine("Некорректный номер задачи.");
+            }
+        }
+
         static void DeleteTask() { Console.WriteLine("Функция в разработке..."); }
     }
 }
