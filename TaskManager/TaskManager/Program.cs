@@ -87,6 +87,18 @@ namespace TaskManager
             }
         }
 
-        static void DeleteTask() { Console.WriteLine("Функция в разработке..."); }
+        static void DeleteTask()
+        {
+            Console.Write("Введите номер задачи для удаления: ");
+            if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= tasks.Count)
+            {
+                tasks.RemoveAt(index - 1);
+                Console.WriteLine("Задача удалена!");
+            }
+            else
+            {
+                Console.WriteLine("Некорректный номер задачи.");
+            }
+        }
     }
 }
