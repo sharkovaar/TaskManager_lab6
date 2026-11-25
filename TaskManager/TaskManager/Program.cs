@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace TaskManager
@@ -56,6 +56,7 @@ namespace TaskManager
             }
         }
 
+feature/show-tasks
         static void ShowTasks() {
             Console.WriteLine("\nСписок задач:");
             if (tasks.Count == 0)
@@ -73,5 +74,50 @@ namespace TaskManager
         static void AddTask() { Console.WriteLine("Функция в разработке..."); }
         static void CompleteTask() { Console.WriteLine("Функция в разработке..."); }
         static void DeleteTask() { Console.WriteLine("Функция в разработке..."); }
+        static void ShowTasks() { Console.WriteLine("Функция в разработке..."); }
+
+        static void AddTask()
+        {
+            Console.Write("Введите название задачи: ");
+            string title = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(title))
+            {
+                tasks.Add(new TaskItem(title));
+                Console.WriteLine("Задача успешно добавлена!");
+            }
+            else
+            {
+                Console.WriteLine("Название не может быть пустым.");
+            }
+        }
+
+        static void CompleteTask()
+        {
+            Console.Write("Введите номер выполненной задачи: ");
+            if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= tasks.Count)
+            {
+                tasks[index - 1].IsCompleted = true;
+                Console.WriteLine("Задача отмечена как выполненная!");
+            }
+            else
+            {
+                Console.WriteLine("Некорректный номер задачи.");
+            }
+        }
+
+        static void DeleteTask()
+        {
+            Console.Write("Введите номер задачи для удаления: ");
+            if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= tasks.Count)
+            {
+                tasks.RemoveAt(index - 1);
+                Console.WriteLine("Задача удалена!");
+            }
+            else
+            {
+                Console.WriteLine("Некорректный номер задачи.");
+            }
+        }
+main
     }
 }
