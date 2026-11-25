@@ -56,6 +56,24 @@ namespace TaskManager
             }
         }
 
+feature/show-tasks
+        static void ShowTasks() {
+            Console.WriteLine("\nСписок задач:");
+            if (tasks.Count == 0)
+            {
+                Console.WriteLine("Задач пока нет.");
+                return;
+            }
+
+            for (int i = 0; i < tasks.Count; i++)
+            {
+                string status = tasks[i].IsCompleted ? "[X]" : "[ ]";
+                Console.WriteLine($"{i + 1}. {status} {tasks[i].Title}");
+            }
+        }
+        static void AddTask() { Console.WriteLine("Функция в разработке..."); }
+        static void CompleteTask() { Console.WriteLine("Функция в разработке..."); }
+        static void DeleteTask() { Console.WriteLine("Функция в разработке..."); }
         static void ShowTasks() { Console.WriteLine("Функция в разработке..."); }
 
         static void AddTask()
@@ -100,5 +118,6 @@ namespace TaskManager
                 Console.WriteLine("Некорректный номер задачи.");
             }
         }
+main
     }
 }

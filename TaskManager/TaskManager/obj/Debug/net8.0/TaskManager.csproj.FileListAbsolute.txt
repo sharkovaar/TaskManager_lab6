@@ -1,0 +1,15 @@
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\bin\Debug\net8.0\TaskManager.exe
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\bin\Debug\net8.0\TaskManager.deps.json
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\bin\Debug\net8.0\TaskManager.runtimeconfig.json
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\bin\Debug\net8.0\TaskManager.dll
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\bin\Debug\net8.0\TaskManager.pdb
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.AssemblyInfoInputs.cache
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.AssemblyInfo.cs
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.csproj.CoreCompileInputs.cache
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.sourcelink.json
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.dll
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\refint\TaskManager.dll
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.pdb
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\TaskManager.genruntimeconfig.cache
+C:\DiskD\Collective dev\TaskManager_lab6\TaskManager_lab6\TaskManager\TaskManager\obj\Debug\net8.0\ref\TaskManager.dll
